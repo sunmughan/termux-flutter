@@ -61,7 +61,7 @@ main() {
     ensure "dart-sdk"
 
     if [ ! -d $FLUTTER ]; then 
-        git clone --depth=1 https://www.github.com/flutter/flutter.git -b $VERSION $FLUTTER
+        git clone --depth=1 https://www.github.com/flutter/flutter.git -b 3.16.3 $FLUTTER
         echo
     fi
         
